@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.signup-wrapper{
+    padding: 0;
+    background-image: url('../../assets/signupbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}

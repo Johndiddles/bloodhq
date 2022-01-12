@@ -1,0 +1,41 @@
+.counter {
+    background: rgba(255,255,255, 0.3);
+    margin: 3em 0;
+    padding: 1em;
+    display: flex;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.mid {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.inner h3 {
+    font-size: 36px;
+}
+.inner p {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+@media screen and (max-width: 498px){
+    /* .counter {
+        flex-direction: column;
+        margin: auto;
+    } */
+    .inner {
+        padding: 1em ;
+    }
+    /* .mid {
+        border: 0;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    } */
+}

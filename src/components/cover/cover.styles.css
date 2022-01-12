@@ -1,0 +1,129 @@
+.cover-wrapper {
+     background-image: url('../../assets/header-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.inner-wrapper {
+    color: black;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 4em 8em;
+    padding-bottom: 0;
+}
+
+.cover-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.cover {
+    font-size: 2.8em;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 90%;
+    padding: 2em 0 0.7em 0;
+}
+.sub-text {
+    font-size: 1.2em;
+}
+
+.left {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.left img {
+    margin-top: 3em;
+    width: 90%;
+}
+
+.register-btn {
+    margin-top: 0.8em;
+    padding: 0.5em 1em;
+    background: #d33a39;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 0.2s;
+    border: 1px solid transparent;
+}
+.register-btn:hover {
+    transition: 0.2s;
+    color: black;
+    background: white;
+    border: 1px solid gray;
+}
+
+@media screen and (max-width: 991px){
+    .cover-wrapper {
+        width: 100%;
+        padding: 4em;
+    }
+
+    .cover-right {
+        width: 100%;
+    }
+
+    .cover {
+        font-size: 2em;
+    }
+    .inner-wrapper {
+        padding: 0.3em;
+    }
+
+    .scroll {
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 720px){
+    .inner-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 4em 8em;
+        padding-bottom: 0;
+        flex-direction: column;
+    }
+    .cover-wrapper {
+        width: 100%;
+        padding: 6em 3em 0 3em;
+        flex-direction: column;
+    }
+
+    .cover-right {
+        width: 100%;
+    }
+
+    .cover {
+        font-size: 2em;
+    }
+    .inner-wrapper {
+        padding: 0.3em;
+    }
+
+    .scroll {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+    .cover-wrapper {
+        width: 100%;
+        padding: 6em 2em 0 2em;
+        padding-bottom: 0;
+    }
+    
+}

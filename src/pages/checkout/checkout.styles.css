@@ -1,0 +1,19 @@
+
+
+.checkout-page {
+    width: 100%;
+    padding: 6em 4em;
+    background: rgb(241, 241, 241);
+}
+
+.checkout-page-header {
+    font-weight: 500;
+    padding: 0.5em 0;
+}
+
+@media screen and (max-width: 900px){
+    .checkout-page {
+        padding: 6em 2em;
+    }
+}
+

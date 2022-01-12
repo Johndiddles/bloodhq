@@ -1,0 +1,94 @@
+.custom-buttons {
+    background-color: #D33A39;
+    border: 1px solid transparent;
+    color: black;
+    height: fit-content;
+    align-self: center;
+    padding: 5px 12px;
+    margin: 10px;
+    border-radius: 3px;
+    transition: 0.2s all ease-in-out;
+}
+
+
+
+.custom-buttons:hover {
+    background-color: transparent;
+    color: #D33A39;
+    border: 1px solid black;
+    transition: 0.2s ;
+}
+
+.transparent {
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.transparent:hover {
+  background: #D33A39;
+  border: 1px solid transparent;
+  color: white;
+}
+
+.login-btn {
+    background: transparent;
+    color: black;
+    border: 0;
+}
+.primary-button {
+  color: white;
+  background-color:#D33A39;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 15px rgba(251, 63, 92, 0.2)
+}
+.primary-button:hover {
+  color: #D33A39;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #D33A39;
+}
+.primary-button:focus {
+  color: white;
+  background-color: #D33A39;
+  border: 1px solid black;
+}
+.primary-button:disabled {
+  color: white;
+  background-color: grey;
+  border: none;
+}
+.secondary-button {
+  color: #D33A39;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+.secondary-button:hover {
+  color: white;
+  background-color: #D33A39;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 2px;
+}
+.secondary-button:focus {
+  color: #D33A39;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.btn-drop {
+  border-radius: 10px;
+  margin: 3em 0;
+  color: white;
+}
+
+.btn-drop:hover {
+  background: #D33A39;
+  color: white;
+  border: 0;
+  box-shadow: 1px 1px 1px #252525;
+}

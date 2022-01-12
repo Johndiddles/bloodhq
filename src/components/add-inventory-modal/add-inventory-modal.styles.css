@@ -1,0 +1,61 @@
+.addButton {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    background: #D33A39;
+    margin-top: 1em;
+}
+.modal-header {
+    color: #D33A39;
+    font-weight: 400;
+    border-bottom: 1px;
+    padding: 0.5em;
+    box-shadow: 0px 1px 1px #dbd9d9;
+}
+
+.modal-header-text {
+    padding: 0.4em;
+}
+.update-wrapper {
+    display: none;
+}
+
+.add-inventory-modal {
+    width: 400px;
+    padding: 1em;
+    margin: auto;
+    align-self: center;
+}
+
+/* .modal-dialog{
+    width: 30vw;
+    padding: 1em;
+} */
+
+.inventory-inputs {
+    border: 0;
+    padding: 0 2em;
+    outline: none;
+}
+
+.blood-type {
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px #D33A39;
+}
+.blood-type option:hover {
+    background-color: #D33A39;
+}
+
+.input-box select {
+    padding: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .add-inventory-modal {
+        width: 100%;
+        padding: 1em;
+        margin: auto;
+        align-self: center;
+    }
+}

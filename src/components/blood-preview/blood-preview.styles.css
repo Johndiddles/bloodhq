@@ -1,0 +1,55 @@
+.blood-preview-modal {
+    width: 600px;
+}
+
+.blood-preview-body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.preview-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preview-inner-details {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.preview-inner-img {
+    width: 40%;
+}
+
+.blood-preview-label {
+    width: 100%;
+}
+
+.blood-preview-input {
+    width: 75px;
+    padding: 0.1em 0.6em;
+    padding-right: 0px;
+    border: 1px dotted gray;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px rgb(226, 226, 226);
+    margin: 0.5em;
+}
+@media screen and (max-width: 600px){
+    .blood-preview-modal {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 475px){
+    .blood-preview-modal {
+        width: 90%;
+    }
+    .preview-inner {
+        flex-direction: column;
+    }
+    .preview-inner-details {
+        width: 90%;
+    }
+}

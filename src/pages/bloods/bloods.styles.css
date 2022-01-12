@@ -1,0 +1,184 @@
+.bloods-wrapper {
+    margin-top: 3.5em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(4, 23, 42, 0.03);
+    padding-top: 2em;
+}
+::-webkit-scrollbar {
+    background-color: gray;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #D33A39;
+    border-radius: 10px;
+}
+
+.blood-cards-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.search-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.search {
+    -webkit-appearance: none;
+    background: #F8F9FC;
+    border: 0.3px solid #DFDFDF;
+    outline: none;
+    padding: 2px 10px;
+    width: 240px;
+    line-height: 30px;
+    margin: 1em 0.5em;
+    border-radius: 15px;
+    text-align: center;
+    color: gray;
+    box-shadow: 1px 1px 1px #D33A39;
+}
+option {
+    color: black;
+}
+.blood-cards {
+    margin: 2em 0.5em;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(95, 94, 94, 0.2);
+    background: white
+}
+
+.user-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.user-bar i {
+    font-size: 1.4em;
+    margin: 0 0.5em;
+}
+
+.user-bar i sup {
+    color: #D33A39;
+    border-radius: 50%;
+    font-size: 0.6em;
+    padding: 0 0.3em;
+    margin-top: -15px;
+    font-weight: 700;
+}
+
+.preview-btn{
+    background: #D33A39;
+    color: white;
+    font-size: 1em;
+    height: fit-content;
+    padding: 0.3em 0.5em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 100%;
+    margin: 1em auto 0.2em auto;
+    border: 0;
+    transition: 0.3s;
+    outline: none;
+}
+.preview-btn:hover {
+    background: rgb(77, 76, 76);
+    color: white;
+    transition: 0.3s;
+}
+
+.hospital-name {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: 0.7em 0;
+}
+
+.card-image {
+    margin: 5px auto;
+    border-radius: 2px;
+    width: 60px;
+
+}
+.blood-details {
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.blood-details-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.stock {
+    font-size: 0.9em;
+}
+.blood-details h3 {
+    font-size: 0.8em;
+}
+.card-stock {
+    color: #D33A39;
+    margin-left: 0.5em;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+.price span {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+@media screen and (max-width: 640px) {
+    .search-wrapper {
+        flex-direction: column;
+    }
+    .blood-cards-wrapper {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .blood-cards {
+        margin: 1em 0.2em;
+        width:43%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 4px rgba(95, 94, 94, 0.2)
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .search-wrapper {
+        flex-direction: column;
+    }
+    .blood-cards-wrapper {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .blood-cards {
+        margin: 1em 0.2em;
+        background: rgba(4, 23, 42, 0.03);
+        width:43%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 4px rgba(95, 94, 94, 0.2)
+    }
+    .blood-details{
+        padding: 0.5em 1em;
+    }
+}

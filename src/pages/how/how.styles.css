@@ -1,0 +1,104 @@
+.how-wrapper {
+  margin-top: 5em;
+}
+.orange {
+  color: #D33A39;
+}
+
+#how {
+ font-family: DM Sans;
+                                                        
+  height: 100vh;
+  background-size: calc(100vh - 10px);
+  background-position: right;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+#how .text {
+  max-width: 30em;
+  position: absolute;
+  top: 10em;
+  left: 8em;
+}
+
+#how h3 {
+  margin: 0 0 1em 0;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: -0.02em;
+  color: #04172A;
+}
+
+#how .download-btn a:first-child {
+  margin-right: 1em;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: DM Sans;color: #04172A;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 3em 0;
+  background: rgba(245, 245, 245, 0.727);
+}
+
+.flex .list-box {
+  max-width: 20em;
+  margin: .5em;
+  background: transparent;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex .list-box h3,
+.flex .list-box p {
+  margin: .2em;
+  font-size:inherit;
+}
+
+@media (max-width: 768px) {
+  #how {
+    background: none;
+    height: auto;
+    text-align: center;
+    margin: 8em auto;
+    width: 90%;
+  }
+  #how .text {
+    position: static;
+    margin: 0 auto;
+    max-width: none;
+  }
+  #how .download-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #how .download-btn a {
+    max-width: 10em;
+  }
+  #how .download-btn a img {
+    width: 100%;
+  }
+}

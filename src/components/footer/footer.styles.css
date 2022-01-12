@@ -1,0 +1,44 @@
+.footer-wrapper {
+  background: rgba(4, 23, 42, 1);
+}
+.link:hover {
+  color: #d33a39;
+}
+.icon {
+  background: #4f5064;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+}
+.copy {
+  border-top: 1px solid #4f5064;
+  margin-top: 4em;
+}
+
+.input-group {
+  display: flex;
+}
+
+input[type="search"] {
+  width: 200px;
+}
+
+.subscribe-btn {
+  width: fit-content;
+  height: 10%;
+}
+
+.copy{
+    border-top: 1px solid #4F5064;
+    margin-top: 4em;
+}
+
+.subscription {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-button {
+    height: fit-content;
+}

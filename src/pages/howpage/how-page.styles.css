@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.upper-div {
+	width: 80%;
+	margin: 30px auto;
+	background-image: url("../../assets/background-image.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.heading-div {
+	text-align: center;
+	margin: 50px 0;
+}
+
+.heading-div > h1 {
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+/* .hq {
+	color:
+} */
+
+.buttons-div {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+.store {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	border: none;
+	outline: none;
+	padding: 10px 30px;
+	margin: 20px;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	color: #fcfcfc;
+	margin: 0 8px;
+}
+
+.text-one {
+	font-size: 9px;
+	margin: 3px 0;
+}
+
+.text-two {
+	font-size: 16px;
+	font-weight: 600;
+	margin: 3px 0;
+}
+
+.phone-div {
+	display: none;
+}
+
+.phone-div::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.phone-one {
+	width: 305px;
+	float: left;
+	position: relative;
+	margin-right: -210px;
+	z-index: 1;
+}
+
+.phone-two {
+	width: 350px;
+}
+
+.lower-div {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+.icons {
+	text-align: center;
+	margin: 0 40px 50px 40px;
+}
+
+.icons img {
+	width: 180px;
+}
+
+.icons-texta {
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+	.upper-div {
+		margin: 25px auto;
+	}
+
+	.store {
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.upper-div {
+		width: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-size: 60%;
+		background-position: 90% center;
+	}
+
+	.heading-div {
+		text-align: left;
+	}
+
+	.heading-div > h1 {
+		font-size: calc(2rem + (10-2) * ((100vw - 769px) / (1600 - 769)));
+		margin-left: 20px;
+	}
+
+	.buttons-div {
+		justify-content: flex-start;
+	}
+
+	.phone-div {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+
+	.icons {
+		margin: 0 70px 50px 70px;
+	}
+}

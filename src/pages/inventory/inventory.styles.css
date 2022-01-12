@@ -1,0 +1,109 @@
+.inventory {
+    margin-top: 5em;
+    padding: 3em 8em ;
+}
+.table_head {
+    background: #DFDFDF;
+    color: #D33A39;
+    text-align: center;
+}
+.back-btn {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+.inventory-notice {
+    color: #D33A39;
+    text-transform: uppercase;
+}
+.action-btn {
+    margin: auto 0.4em;
+    padding: 0.2em 0.8em;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+}
+.action-btn i{
+    font-size: 1.3em;
+}
+.table_data {
+    text-align: center;
+}
+.welcome span {
+    color: #D33A39;
+}
+.inventories-table-head {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+.add-inventory {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 1em;
+}
+.action_column {
+    display: flex;
+    justify-content: center;
+}
+
+.actions-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.stockAddDrop {
+    padding-left: 15px;
+    width: 45px;
+    padding: 5px;
+    margin: 0.5em auto;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    text-align: center;
+
+}
+
+.btn-group {
+    margin: 0 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.2em;
+    border-radius: 5px;
+    padding-left: 0.4em;
+}
+
+
+.add {
+    background: #a5b9a2;
+}
+
+.drop {
+    background: #966565;
+
+}
+
+@media screen and (max-width: 780px){
+    .inventory {
+        margin: 3em 0;
+        padding: 2em 1.5em;
+    }
+
+    .inventory-table {
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .inventory {
+        margin: 3em 0;
+        padding: 2em 0.5em;
+    }
+
+    .inventory-table {
+        overflow-x: scroll;
+    }
+}
